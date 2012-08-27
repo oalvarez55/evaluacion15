@@ -1,0 +1,16 @@
+package claseCA;
+
+public class PERRO {
+ public String nombre;
+ public String color;
+ public Double peso;
+ public String raza;
+  
+ public void imprimirperro (){
+	 
+	 System.out.println("nombre: "+this.nombre);
+	 System.out.println("color: "+this.color);
+	 System.out.println("peso: "+this.peso);
+	 System.out.println("raza: "+this.raza);
+ }
+}

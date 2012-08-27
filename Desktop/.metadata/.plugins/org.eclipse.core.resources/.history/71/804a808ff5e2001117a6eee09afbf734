@@ -1,0 +1,17 @@
+package killer;
+
+public class main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		 PerrO perro1= new PerrO();
+		 perro1.setNombre("manolo");
+		 perro1.setRaza("pitbul");
+		 perro1.setNombre("manolo");
+		 perro1.Imprimirperr0();
+	}
+
+}

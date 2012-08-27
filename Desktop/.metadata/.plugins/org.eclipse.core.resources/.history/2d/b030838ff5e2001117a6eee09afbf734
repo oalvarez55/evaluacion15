@@ -1,0 +1,57 @@
+package killer;
+
+public class PerrO{
+	public String nombre;
+	public String raza;
+	public int peso;
+	public int presio ;
+	public String dueño;
+	
+	public void Imprimirperr0(){
+    System.out.println("NOMBRE :" +this.nombre);
+	System.out.println("raza :" +this.raza);		
+	System.out.println("NOMBRE :" +this.peso);
+	System.out.println("NOMBRE :" +this.presio);
+	System.out.println("NOMBRE :" +this.dueño);
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getRaza() {
+		return raza;
+	}
+
+	public void setRaza(String raza) {
+		this.raza = raza;
+	}
+
+	public int getPeso() {
+		return peso;
+	}
+
+	public void setPeso(int peso) {
+		this.peso = peso;
+	}
+
+	public int getPresio() {
+		return presio;
+	}
+
+	public void setPresio(int presio) {
+		this.presio = presio;
+	}
+
+	public String getDueño() {
+		return dueño;
+	}
+
+	public void setDueño(String dueño) {
+		this.dueño = dueño;
+	}
+}

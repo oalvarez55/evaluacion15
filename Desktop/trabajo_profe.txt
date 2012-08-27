@@ -1,0 +1,27 @@
+1. Que es una maquina extendida en un sistema operativo.
+
+2. Como administra un sistema operativo los recursos de una maquina.
+
+3. Cual fue el echo mas destacado en la primera generacion de computadores.
+
+4. Cual fue el echo mas destacado en la segunda generacion.
+
+5. Cual fue el echo mas destacado en la tercera generacion.
+
+6. Cual fue el echo mas destacado en la cuarta generacion.
+
+7. ¿Porque el minix fue importante para la historia de los sistemas operativos?
+
+8. En los sistemas operativo ¿que son procesos?, y cual es su uso.
+
+9. Que son archivos y cual es su uso.
+
+10. Que es un shell y cual es su uso.
+
+11. Que son y para que sirven los sitemas monoliticos.
+
+12. Que son y para que sirven los sitemas por capas.
+
+13. Que son y para que sirven las maquinas virtuales.
+
+14. Que es y como funciona el modelo cliente-servidor.

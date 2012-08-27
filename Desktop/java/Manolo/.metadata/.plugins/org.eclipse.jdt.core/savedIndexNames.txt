@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+C:\Users\g-empresarial\Desktop\java\Manolo\.metadata\.plugins\org.eclipse.jdt.core
+3241541715.index
+83498214.index

@@ -1,0 +1,44 @@
+package Clase2;
+
+public class Principal {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	
+		PERRO[] perros = ingresarperros();
+		mostrarperros(perros);
+
+	}
+
+	private static void mostrarperros(PERRO[] perros) {
+		for (int i = 0; i < perros.length; i++) {
+			perros[i].imprimirperro();
+		}
+	}
+
+	private static PERRO[] ingresarperros() {
+		
+		PERRO[] perros = new PERRO[4];
+		
+		String[] nombres = {"Firulais","Keyla","Tania","Duqesa"};
+		Double[] pesos = {1.5,3.0,5.0,7.2};
+		String[] colores = {"Blanco","Amarillo","Manchado","Gris"};
+		Double[] raciones = {0.3,0.7,1.2,1.9};
+		
+		for (int i =0; i < 4; i++){
+			PERRO perro = new PERRO();
+			
+			perro.setNombre(nombres[i]);
+			perro.setPeso(pesos[i]);
+			perro.setColor(colores[i]);
+			perro.setRacion(raciones[i]);
+			
+			perros[i] = perro;
+		}
+				
+		return perros;
+	}
+
+}

@@ -1,0 +1,14 @@
+package killer;
+
+public class PerrO{
+	public String nombre;
+	public String raza;
+	public int peso;
+	public int presio ;
+	public String dueño;
+	
+	public void Imprimirperr0{
+		
+	}
+
+}

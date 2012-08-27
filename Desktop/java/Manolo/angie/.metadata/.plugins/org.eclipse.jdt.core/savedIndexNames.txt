@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+C:\Users\g-empresarial\Desktop\java\Manolo\angie\.metadata\.plugins\org.eclipse.jdt.core
+1901735806.index

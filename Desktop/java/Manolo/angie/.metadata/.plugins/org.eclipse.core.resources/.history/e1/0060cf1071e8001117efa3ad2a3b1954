@@ -1,0 +1,58 @@
+package CLASE2;
+
+public class CARRO {
+public String marca;
+public String color;
+public Double cilindrage;
+public String placa;
+public String potenciarpm;
+
+public void imprimircarro(){
+	System.out.println("marca: "+this.marca);
+	System.out.println("color: "+this.color);
+	System.out.println("cilindrage: "+this.cilindrage);
+	System.out.println("placa: "+this.placa);
+	System.out.println("potenciarpm "+this.potenciarpm);
+}
+
+public String getMarca() {
+	return marca;
+}
+
+public void setMarca(String marca) {
+	this.marca = marca;
+}
+
+public String getColor() {
+	return color;
+}
+
+public void setColor(String color) {
+	this.color = color;
+}
+
+public Double getCilindrage() {
+	return cilindrage;
+}
+
+public void setCilindrage(Double cilindrage) {
+	this.cilindrage = cilindrage;
+}
+
+public String getPlaca() {
+	return placa;
+}
+
+public void setPlaca(String placa) {
+	this.placa = placa;
+}
+
+public String getPotenciarpm() {
+	return potenciarpm;
+}
+
+public void setPotenciarpm(String potenciarpm) {
+	this.potenciarpm = potenciarpm;
+}
+
+}

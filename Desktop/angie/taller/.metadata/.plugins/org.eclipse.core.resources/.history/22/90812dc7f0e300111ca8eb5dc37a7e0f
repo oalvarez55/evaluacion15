@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+
+public class CESAR {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	
+		//String alfabeto[]= new String [26];
+		String alfabeto = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z";
+		//Scanner leer= new Scanner(System.in);
+		//char[] arr = new String(20);
+		
+		Scanner scaner = new Scanner(System.in);
+	    System.out.println("Ingrese Texto:" );	
+		String texto = scaner.next();
+
+	    System.out.println("Salida texto:" + texto);	
+/*		for(int i=0;i<arr.length;i++){
+			
+			
+		}
+*/
+		
+
+	}
+
+}

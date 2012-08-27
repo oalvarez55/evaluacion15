@@ -1,0 +1,10 @@
+package claseCA;
+
+public class CARRO {
+ public String marca;
+ public String referencia;
+ public String color;
+ public Double cilindrage;
+ public String placa;
+ 
+}

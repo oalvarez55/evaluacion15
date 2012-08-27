@@ -1,0 +1,44 @@
+package CARRO;
+
+import java.util.Scanner;
+
+public class PPAL {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		 
+		CARRO carro1=new CARRO();
+		CARRO carro2=new CARRO();
+		Scanner paso = new Scanner (System.in);
+		
+		System.out.print("marca: ");
+		carro1.setMarca("Nissan");
+		System.out.print("color: ");
+		carro1.setColor("rojo");
+		System.out.print("cilindraje: ");
+		carro1.setCilindrage(2.0);
+		System.out.print("placa: ");
+		carro1.setPlaca("GRE457");
+		System.out.print("potenciarpm: ");
+		carro1.setPotenciarpm("5000 rpm");
+		
+		System.out.print("marca: ");
+		carro2.setMarca("BMW");
+		System.out.print("color: ");
+		carro2.setColor("Blanco");
+		System.out.print("cilindraje: ");
+		carro2.setCilindrage(4.4);
+		System.out.print("placa: ");
+		carro2.setPlaca("BUR685");
+		System.out.print("potenciarpm: ");
+		carro2.setPotenciarpm("1800 rpm");
+		
+		carro1.imprimircarro();
+		carro2.imprimircarro();
+		
+
+	}
+
+}

@@ -1,0 +1,26 @@
+
+
+	import java.util.Scanner;
+
+	public class PrincipaL {
+		public static void main(String[] args) {
+			CamionetA VI = new CamionetA ();
+			
+			Scanner elles = new Scanner (System.in);
+			System.out.println("precio :"+ elles.nextInt() );
+			VI.setprecio(elles.next());
+			System.out.println("kilometraje :"+elles.nextInt());
+			VI.setkilometraje(elles.next());
+			System.out.println("placa"+elles.next());
+			VI.setplaca(elles.next());
+			System.out.println("color :"+elles.next());
+			VI.setcolor(elles.next());
+			System.out.println("residente :"+elles.next());
+			VI.setresidente(elles.next());
+			
+			
+			VI.imprimirCamionetA();
+	
+
+	}
+}

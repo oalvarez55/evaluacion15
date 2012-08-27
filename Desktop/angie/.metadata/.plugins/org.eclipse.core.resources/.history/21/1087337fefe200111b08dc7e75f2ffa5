@@ -1,0 +1,32 @@
+package claseCA;
+
+public class ppal1 {
+
+	/**
+	 * 
+	 * camilo, angie
+	 * 10/08/2012
+	 * modelaje y especificacion
+	 */
+	public static void main(String[] args) {
+		
+		CARRO carro1= new CARRO();
+		CARRO carro2= new CARRO();
+		
+		carro1.marca="chevrolet";
+		carro1.referencia="captiva";
+		carro1.color="negro";
+		carro1.cilindrage=2.0;
+		carro1.placa="GRE457";
+		
+		System.out.println("marca: "+carro1.marca);
+		System.out.println("referencia: "+carro1.referencia);
+		System.out.println("color: "+carro1.color);
+		System.out.println("cilindrage: "+carro1.cilindrage);
+		System.out.println("placa: "+carro1.placa);
+		
+		
+
+	}
+
+}

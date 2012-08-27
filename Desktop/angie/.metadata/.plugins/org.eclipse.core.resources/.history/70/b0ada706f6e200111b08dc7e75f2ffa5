@@ -1,0 +1,44 @@
+package claseCA;
+
+import java.util.Scanner;
+
+public class ppal2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		 
+		PERRO perro1=new PERRO();
+		PERRO perro2=new PERRO();
+		Scanner paso = new Sacanner (System.in);
+		
+		System.out.println("nombre: ");
+		perro1.setNombre(paso.next());
+		System.out.println("color: ");
+		perro1.setColor(paso.next());
+		System.out.println("peso: ");
+		perro1.setPeso(paso.nextDouble());
+		System.out.println("raza: ");
+		perro1.setRaza(paso.next());
+		System.out.println("altura: ");
+		perro1.setAltura(paso.nextDouble());
+		
+		System.out.println("nombre: ");
+		perro2.setNombre(paso.next());
+		System.out.println("color: ");
+		perro2.setColor(paso.next());
+		System.out.println("peso: ");
+		perro2.setPeso(paso.nextDouble());
+		System.out.println("raza: ");
+		perro2.setRaza(paso.next());
+		System.out.println("altura: ");
+		perro2.setAltura(paso.nextDouble());
+		
+		perro1.imprimirperro();
+		perro2.imprimirperro();
+		
+
+	}
+
+}

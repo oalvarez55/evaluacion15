@@ -1,0 +1,29 @@
+package claseCA;
+
+public class ppal2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		 
+		PERRO perro1=new PERRO();
+		PERRO perro2=new PERRO();
+		
+		perro1.nombre="toby";
+		perro1.color="chocolate";
+		perro1.peso=7.2;
+		perro1.raza="labrador";
+		
+		perro2.nombre="copito";
+		perro2.color="negro";
+		perro2.peso=10.2;
+		perro2.raza="grandanes";
+		
+		perro1.imprimirperro();
+		perro2.imprimirperro();
+		
+
+	}
+
+}
